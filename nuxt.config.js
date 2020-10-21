@@ -9,7 +9,6 @@ import i18n from './config/i18n'
 import loaders from './config/loaders'
 import loading from './config/loading'
 import manifest from './config/manifest'
-import mode from './config/mode'
 import plugins from './config/plugins'
 import server from './config/server'
 
@@ -25,10 +24,10 @@ export default {
   loaders,
   loading,
   manifest,
-  mode,
   modules,
   plugins,
   server,
+  ssr: true,
   modern: true,
   target: 'static',
 }

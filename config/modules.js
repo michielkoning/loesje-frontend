@@ -11,6 +11,7 @@ export const modules = [
 ]
 
 export const buildModules = [
+  '@nuxt/typescript-build',
   '@nuxtjs/stylelint-module',
   '@nuxtjs/composition-api',
 ]
