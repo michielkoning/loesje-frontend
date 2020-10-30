@@ -1,0 +1,239 @@
+{
+  "Node": [
+    "DailyPoster",
+    "User",
+    "Comment",
+    "EnqueuedScript",
+    "EnqueuedStylesheet",
+    "MediaItem",
+    "ContentType",
+    "Taxonomy",
+    "Page",
+    "Poster",
+    "Source",
+    "Subject",
+    "Post",
+    "Category",
+    "PostFormat",
+    "SimpleProduct",
+    "ProductCategory",
+    "ProductTag",
+    "ProductType",
+    "ShippingClass",
+    "VisibleProduct",
+    "VariableProduct",
+    "ProductVariation",
+    "ExternalProduct",
+    "GroupProduct",
+    "Tag",
+    "UserRole",
+    "Coupon",
+    "Customer",
+    "Order",
+    "TaxRate",
+    "Refund",
+    "ShippingMethod",
+    "Menu",
+    "MenuItem",
+    "Plugin",
+    "Theme",
+    "CommentAuthor"
+  ],
+  "ContentNode": [
+    "DailyPoster",
+    "MediaItem",
+    "Page",
+    "Poster",
+    "Post"
+  ],
+  "UniformResourceIdentifiable": [
+    "DailyPoster",
+    "User",
+    "MediaItem",
+    "ContentType",
+    "Page",
+    "Poster",
+    "Source",
+    "Subject",
+    "Post",
+    "Category",
+    "PostFormat",
+    "ProductCategory",
+    "ProductTag",
+    "ProductType",
+    "ShippingClass",
+    "VisibleProduct",
+    "Tag"
+  ],
+  "Commenter": [
+    "User",
+    "CommentAuthor"
+  ],
+  "DatabaseIdentifier": [
+    "DailyPoster",
+    "User",
+    "Comment",
+    "MediaItem",
+    "Page",
+    "Poster",
+    "Source",
+    "Subject",
+    "Post",
+    "Category",
+    "PostFormat",
+    "ProductCategory",
+    "ProductTag",
+    "ProductType",
+    "ShippingClass",
+    "VisibleProduct",
+    "Tag",
+    "Menu",
+    "MenuItem"
+  ],
+  "EnqueuedAsset": [
+    "EnqueuedScript",
+    "EnqueuedStylesheet"
+  ],
+  "NodeWithTitle": [
+    "DailyPoster",
+    "MediaItem",
+    "Page",
+    "Poster",
+    "Post"
+  ],
+  "NodeWithAuthor": [
+    "MediaItem",
+    "Page",
+    "Post"
+  ],
+  "NodeWithComments": [
+    "MediaItem",
+    "Page",
+    "Post"
+  ],
+  "HierarchicalContentNode": [
+    "MediaItem",
+    "Page"
+  ],
+  "ContentTemplate": [],
+  "TermNode": [
+    "Source",
+    "Subject",
+    "Category",
+    "PostFormat",
+    "ProductCategory",
+    "ProductTag",
+    "ProductType",
+    "ShippingClass",
+    "VisibleProduct",
+    "Tag"
+  ],
+  "NodeWithContentEditor": [
+    "Page",
+    "Post"
+  ],
+  "NodeWithFeaturedImage": [
+    "DailyPoster",
+    "Page",
+    "Poster",
+    "Post"
+  ],
+  "NodeWithExcerpt": [
+    "Page",
+    "Post"
+  ],
+  "NodeWithRevisions": [
+    "Page",
+    "Post"
+  ],
+  "NodeWithPageAttributes": [
+    "Page"
+  ],
+  "MenuItemLinkable": [
+    "Page",
+    "Poster",
+    "Source",
+    "Subject",
+    "Post",
+    "Category",
+    "ProductCategory",
+    "ProductTag",
+    "Tag"
+  ],
+  "Page_Relatedpostersgroup_relatedPostersPosters_Poster": [
+    "Poster"
+  ],
+  "HierarchicalTermNode": [
+    "Source",
+    "Category",
+    "ProductCategory"
+  ],
+  "NodeWithTrackbacks": [
+    "Post"
+  ],
+  "Post_Relatedpostersgroup_relatedPostersPosters_Poster": [
+    "Poster"
+  ],
+  "Post_Relatedproductsgroup_relatedProductsProducts_Product": [
+    "SimpleProduct",
+    "VariableProduct",
+    "ExternalProduct",
+    "GroupProduct"
+  ],
+  "Product": [
+    "SimpleProduct",
+    "VariableProduct",
+    "ExternalProduct",
+    "GroupProduct"
+  ],
+  "ProductAttribute": [
+    "GlobalProductAttribute",
+    "LocalProductAttribute"
+  ],
+  "Poster_Relatedproductsgroup_relatedProductsProducts_Product": [
+    "SimpleProduct",
+    "VariableProduct",
+    "ExternalProduct",
+    "GroupProduct"
+  ],
+  "Page_Relatedproductsgroup_relatedProductsProducts_Product": [
+    "SimpleProduct",
+    "VariableProduct",
+    "ExternalProduct",
+    "GroupProduct"
+  ],
+  "ContentRevisionUnion": [
+    "Post",
+    "Page"
+  ],
+  "MenuItemObjectUnion": [
+    "Post",
+    "Page",
+    "Poster",
+    "Category",
+    "Tag",
+    "ProductCategory",
+    "ProductTag",
+    "Source",
+    "Subject"
+  ],
+  "PostObjectUnion": [
+    "Post",
+    "Page",
+    "MediaItem",
+    "Poster",
+    "DailyPoster"
+  ],
+  "TermObjectUnion": [
+    "Category",
+    "Tag",
+    "PostFormat",
+    "ProductType",
+    "VisibleProduct",
+    "ProductCategory",
+    "ProductTag",
+    "ShippingClass",
+    "Source",
+    "Subject"
+  ]
+}

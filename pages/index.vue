@@ -5,11 +5,11 @@
     <latest-posts-section />
     <related-posters-section :related-posters="page.relatedPosters" />
     <app-stores-section />
-    <!-- <related-products-section
+    <related-products-section
       :related-products="page.relatedProducts"
       :title="page.relatedPosters.title"
     />
-    <block-instagram /> -->
+    <!--<block-instagram /> -->
     <groups />
   </div>
 </template>
