@@ -131,33 +131,41 @@ export default {
 }
 
 .buttons {
+  @mixin tile-border 1px, 1;
+
   display: flex;
   margin-bottom: 1em;
   flex-wrap: wrap;
 }
 
 .filter-item {
-  @mixin tile-border 1px, 1;
-
-  border-bottom-width: 0;
+  border-bottom: 1px solid var(--color-black);
   flex: 0 0 auto;
   width: 100%;
   padding: 0 1em;
 
+  &:last-child {
+    border-bottom: 0;
+  }
+
   @media (--viewport-sm) {
     width: 50%;
 
-    &:nth-child(2n) {
-      border-left-width: 0;
+    &:nth-child(2n + 1) {
+      border-right: 1px solid var(--color-black);
+    }
+
+    &:nth-child(3) {
+      border-bottom: 0;
     }
   }
 
   @media (--viewport-md) {
     width: 25%;
-    border-right-width: 1px;
+    border-bottom: 0;
 
-    &:first-child {
-      border-left: 0;
+    &:nth-child(2) {
+      border-right: 1px solid var(--color-black);
     }
   }
 }
