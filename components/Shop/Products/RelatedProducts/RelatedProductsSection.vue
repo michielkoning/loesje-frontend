@@ -6,7 +6,7 @@
     <center-wrapper>
       <h1 id="featured-products">{{ title }}</h1>
 
-      <products-container :product-ids="productIds">
+      <products-container :product-ids="databaseIds">
         <template #default="data">
           <product-list v-if="data" :products="data.products" />
         </template>
@@ -42,10 +42,10 @@ export default {
     title() {
       return this.relatedProducts.title || this.$t('title')
     },
-    productIds() {
+    databaseIds() {
       if (this.relatedProducts.relatedProductsProducts) {
         return this.relatedProducts.relatedProductsProducts.map(
-          (product) => product.product.productId,
+          (product) => product.product.databaseId,
         )
       }
       return []

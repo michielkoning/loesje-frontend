@@ -10,7 +10,7 @@
       />
     </article>
     <div :class="$style['meta-data']">
-      <app-date :date="poster.date" />
+      <app-date :date="poster.PosterMetaGroup.date" />
 
       <dl>
         <template v-if="poster.subjects.edges.length">

@@ -1,5 +1,5 @@
 <template>
-  <products-container :category="category" :product-ids="productIds">
+  <products-container :category="category" :product-ids="databaseIds">
     <template #default="data">
       <product-list v-if="data" :products="data.products" />
     </template>
@@ -26,9 +26,9 @@ export default {
     },
   },
   computed: {
-    productIds() {
+    databaseIds() {
       if (this.relatedProducts.length) {
-        return this.relatedProducts.map((product) => product.node.productId)
+        return this.relatedProducts.map((product) => product.node.databaseId)
       }
       return []
     },

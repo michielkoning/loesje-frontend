@@ -69,7 +69,7 @@ export default {
         mutation: AddToCartQuery,
         variables: {
           input: {
-            productId: this.product.productId,
+            databaseId: this.product.databaseId,
             clientMutationId: 'AddToCart',
             quantity: this.quantity,
           },

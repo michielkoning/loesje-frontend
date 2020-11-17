@@ -1,4 +1,4 @@
 export default {
   fallback: true,
-  crawler: false,
+  exclude: [/^\/posters\//, /^\/winkeltje\//],
 }

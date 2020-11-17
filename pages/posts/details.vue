@@ -12,7 +12,7 @@
       v-if="post"
       :related-posters="post.relatedPosters"
     />
-    <!-- <related-products-section :related-products="post.relatedProducts" /> -->
+    <related-products-section :related-products="post.relatedProducts" />
     <posts-overview-section :not-in="post.databaseId" />
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :class="$style.posters">
     <center-wrapper>
       <poster-filters />
       <posters-auto-complete />
@@ -9,6 +9,8 @@
       :sources="selectedSourceIds"
       :subjects="selectedSubjectIds"
       :search="search"
+      :date-before="dateBefore"
+      :date-after="dateAfter"
     />
   </div>
 </template>
@@ -18,7 +20,7 @@ import { mapState, mapGetters } from 'vuex'
 
 export default {
   computed: {
-    ...mapState('tags', ['selectedTags', 'search']),
+    ...mapState('tags', ['selectedTags', 'search', 'dateBefore', 'dateAfter']),
     ...mapGetters('tags', ['selectedSourceIds', 'selectedSubjectIds']),
   },
   nuxtI18n: {
@@ -28,3 +30,9 @@ export default {
   },
 }
 </script>
+
+<style lang="postcss" module>
+.posters {
+  @mixin block;
+}
+</style>

@@ -25,7 +25,7 @@ export default {
     },
     content: {
       type: String,
-      required: true,
+      default: null,
     },
     date: {
       type: String,

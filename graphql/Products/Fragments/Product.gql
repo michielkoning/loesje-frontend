@@ -1,6 +1,6 @@
 fragment product on Product {
   id
-  productId
+  databaseId
   name
   image {
     id

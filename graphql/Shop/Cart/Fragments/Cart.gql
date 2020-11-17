@@ -3,7 +3,7 @@ fragment cart on Cart {
     edges {
       node {
         product {
-          productId
+          databaseId
           id
           name
         }

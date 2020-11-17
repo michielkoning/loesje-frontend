@@ -4,7 +4,7 @@ fragment relatedProductsPostGroup on Post_Relatedproductsgroup {
     ... on Post_Relatedproductsgroup_relatedProductsProducts {
       product {
         ... on Product {
-          productId
+          databaseId
         }
       }
     }

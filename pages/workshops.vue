@@ -7,7 +7,7 @@
       v-if="page"
       :related-posters="page.relatedPosters"
     />
-    <!-- <related-products-section :related-products="page.relatedProducts" /> -->
+    <related-products-section :related-products="page.relatedProducts" />
   </div>
 </template>
 

@@ -10,7 +10,7 @@
       :not-in="page.databaseId"
       :parent-page-id="parentId"
     />
-    <!-- <related-products-section :related-products="page.relatedProducts" /> -->
+    <related-products-section :related-products="page.relatedProducts" />
   </div>
 </template>
 

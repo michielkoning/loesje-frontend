@@ -17,7 +17,7 @@ export default {
       type: Number,
       default: 0,
     },
-    productIds: {
+    databaseIds: {
       type: Array,
       default: () => [],
     },
@@ -34,10 +34,10 @@ export default {
         }
       }
 
-      if (this.productIds.length) {
+      if (this.databaseIds.length) {
         return {
           ...inStock,
-          include: this.productIds,
+          include: this.databaseIds,
         }
       }
 

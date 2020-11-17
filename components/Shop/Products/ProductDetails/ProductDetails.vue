@@ -11,7 +11,7 @@
           {{ product.regularPrice }} - {{ product.salesPrice }} -
           {{ product.stockStatus }}
           {{ product.price }}
-          {{ product.productId }}
+          {{ product.databaseId }}
         </div>
         <form-add-to-cart :product="product" />
       </div>

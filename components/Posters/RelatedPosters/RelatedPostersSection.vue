@@ -41,7 +41,7 @@ export default {
   },
   setup(props) {
     let subjects = []
-    if (props.relatedPosters.subjects.length) {
+    if (props.relatedPosters.subjects?.length) {
       subjects = props.relatedPosters.subjects.map(
         (subject) => subject.databaseId,
       )
@@ -73,7 +73,7 @@ export default {
     },
     btnText() {
       let text = this.$t('btnText')
-      if (this.relatedPosters.subjects.length === 1) {
+      if (this.relatedPosters.subjects?.length === 1) {
         const { name } = this.relatedPosters.subjects[0]
         text += this.$t('aboutSubject', { subject: name })
       }

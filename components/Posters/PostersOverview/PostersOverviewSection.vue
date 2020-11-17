@@ -36,6 +36,14 @@ export default {
       type: String,
       default: null,
     },
+    dateBefore: {
+      type: String,
+      default: null,
+    },
+    dateAfter: {
+      type: String,
+      default: null,
+    },
     notIn: {
       type: Number,
       default: 0,
@@ -58,11 +66,15 @@ export default {
   setup(props) {
     const sources = computed(() => props.sources)
     const search = computed(() => props.search)
+    const dateBefore = computed(() => props.dateBefore)
+    const dateAfter = computed(() => props.dateAfter)
     const subjects = computed(() => props.subjects)
     const { posters, loading, error, loadMore, hasNextPage } = usePosters({
       search,
       subjects,
       sources,
+      dateBefore,
+      dateAfter,
       notIn: props.notIn,
     })
 
