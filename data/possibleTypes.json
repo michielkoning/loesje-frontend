@@ -44,7 +44,12 @@
     "MediaItem",
     "Page",
     "Poster",
-    "Post"
+    "Post",
+    "SimpleProduct",
+    "VariableProduct",
+    "ProductVariation",
+    "ExternalProduct",
+    "GroupProduct"
   ],
   "UniformResourceIdentifiable": [
     "DailyPoster",
@@ -58,11 +63,14 @@
     "Post",
     "Category",
     "PostFormat",
+    "SimpleProduct",
     "ProductCategory",
     "ProductTag",
-    "ProductType",
     "ShippingClass",
-    "VisibleProduct",
+    "VariableProduct",
+    "ProductVariation",
+    "ExternalProduct",
+    "GroupProduct",
     "Tag"
   ],
   "Commenter": [
@@ -94,6 +102,14 @@
     "EnqueuedScript",
     "EnqueuedStylesheet"
   ],
+  "NodeWithTemplate": [
+    "DailyPoster",
+    "MediaItem",
+    "Page",
+    "Poster",
+    "Post"
+  ],
+  "ContentTemplate": [],
   "NodeWithTitle": [
     "DailyPoster",
     "MediaItem",
@@ -109,34 +125,35 @@
   "NodeWithComments": [
     "MediaItem",
     "Page",
-    "Post"
+    "Post",
+    "SimpleProduct",
+    "VariableProduct",
+    "ExternalProduct",
+    "GroupProduct",
+    "Order"
   ],
   "HierarchicalContentNode": [
     "MediaItem",
     "Page"
   ],
-  "ContentTemplate": [],
-  "TermNode": [
-    "Source",
-    "Subject",
-    "Category",
-    "PostFormat",
-    "ProductCategory",
-    "ProductTag",
-    "ProductType",
-    "ShippingClass",
-    "VisibleProduct",
-    "Tag"
-  ],
   "NodeWithContentEditor": [
     "Page",
-    "Post"
+    "Post",
+    "SimpleProduct",
+    "VariableProduct",
+    "ExternalProduct",
+    "GroupProduct"
   ],
   "NodeWithFeaturedImage": [
     "DailyPoster",
     "Page",
     "Poster",
-    "Post"
+    "Post",
+    "SimpleProduct",
+    "VariableProduct",
+    "ProductVariation",
+    "ExternalProduct",
+    "GroupProduct"
   ],
   "NodeWithExcerpt": [
     "Page",
@@ -162,6 +179,18 @@
   ],
   "Page_Relatedpostersgroup_relatedPostersPosters_Poster": [
     "Poster"
+  ],
+  "TermNode": [
+    "Source",
+    "Subject",
+    "Category",
+    "PostFormat",
+    "ProductCategory",
+    "ProductTag",
+    "ProductType",
+    "ShippingClass",
+    "VisibleProduct",
+    "Tag"
   ],
   "HierarchicalTermNode": [
     "Source",

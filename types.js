@@ -1,4 +1,5 @@
 const fs = require('fs')
+const util = require('util')
 const fetch = require('cross-fetch')
 
 const YOUR_API_HOST = 'https://api.loesje.michielkoning.nl/'
@@ -37,7 +38,7 @@ fetch(`${YOUR_API_HOST}graphql`, {
 
     fs.writeFile(
       './data/possibleTypes.json',
-      JSON.stringify(possibleTypes),
+      util.inspect(JSON.stringify(possibleTypes)),
       (err) => {
         if (err) {
           console.error('Error writing possibleTypes.json', err)
